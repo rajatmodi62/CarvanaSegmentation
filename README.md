@@ -20,3 +20,5 @@ A) Squeeze and Excitation networks in the encoder portion of the UNets (Check Ar
 B) Cutout in input images instead of dropout to increase model robustness. 
 C) It was found that a BCE Loss containing a Dice metric is non differentiable. Therefore, an alternate approach has been to approximate the bounds with a convex Lovasz Loss. The winners extended the approach to something called "Symmetric Lovasz Loss" which I hope to explore in the future.
 
+A.........|B..........
+Content1| Content 2
